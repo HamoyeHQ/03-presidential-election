@@ -1,10 +1,6 @@
-# Predicting-University-Admissions
-**Task Details**
+# US Presidential Elections
+**Content**
 
-Using the supplied predictive variables (GRE score, TOEFL score, University Rating, etc) to predict the likelihood of admission of a new candidate.
+Datasets include election results on city, district, county, state and national level.
 
-**Evaluation Criteria**
-
-The best model should be the one that evaluates to have the lowest RMSE overall, and please indicate the error you get on validation set containing the last 100 observations.
-
-[Here is a link to the dataset](https://www.kaggle.com/mohansacharya/graduate-admissions/tasks?taskId=6)
+[Here is a link to the dataset](https://www.kaggle.com/tunguz/us-elections-dataset)
