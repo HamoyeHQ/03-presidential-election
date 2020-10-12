@@ -1,6 +1,7 @@
 import argparse
 import joblib
 import numpy as np
+from xgboost import XGBClassifier
 from sklearn.metrics import classification_report
 
 def test_model(x_test, y_test, model_path):
