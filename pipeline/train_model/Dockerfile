@@ -2,7 +2,11 @@ FROM python:3.7-slim
 
 WORKDIR /app
 
-RUN pip install -U scikit-learn numpy
+RUN apt-get update && \
+     apt-get -y --no-install-recommends install \
+     libgomp1
+
+RUN pip install -U scikit-learn numpy xgboost
 
 COPY train_model.py ./train_model.py
 
