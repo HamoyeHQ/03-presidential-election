@@ -1,7 +1,7 @@
 import argparse
 
-def deploy_model(model_path):
-    print(f'deploying model {model_path}...')
+def deploy_model(data_path):
+    print(f'deploying model {data_path}...')
 
 
 if __name__ == '__main__':

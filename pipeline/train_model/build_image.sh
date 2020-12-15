@@ -1,6 +1,6 @@
 #!/bin/sh
 
-image_name=twarik/presidential_pipeline_train
+image_name=gcr.io/used-cars-298619/used_cars_pipeline_training
 image_tag=latest
 
 full_image_name=${image_name}:${image_tag}
